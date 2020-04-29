@@ -279,7 +279,7 @@ int main( void )
   {
 
 	  	  MX_GPIO_Therm_Power_ON ();
-	  	  //PRINTF ("termON");
+	  	  PRINTF ("termON");
 	  	  HAL_ADC_Start(&hadc);
 	  	  HAL_ADC_PollForConversion(&hadc, 10);
 
